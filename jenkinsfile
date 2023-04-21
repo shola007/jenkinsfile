@@ -13,6 +13,7 @@ pipeline{
          stage("test"){
         steps{
             echo 'testing application'
+            echo 'updating testing before moving to deploy stage'
         }
         
     }
