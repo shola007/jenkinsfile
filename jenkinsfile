@@ -7,7 +7,7 @@ pipeline{
          stage("test"){
         steps{
             echo 'testing application'
-            echo 'updating testing stage'
+            echo 'updating testing stages'
         }
         
     }
