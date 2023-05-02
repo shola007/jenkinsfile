@@ -3,10 +3,9 @@ pipeline{
    
    stages{
 
-         
-         stage("test"){
+          stage("test"){
         steps{
-            echo 'testing application'
+            echo 'testing my application'
             echo 'updating testing stage into test node'
         }
         
