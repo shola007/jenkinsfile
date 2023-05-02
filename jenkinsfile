@@ -1,25 +1,18 @@
 pipeline{
-    agent any 
+    agent {label 'slave2'} 
    
    stages{
-
-         stage("build"){
-        steps{
-            echo 'building application'
-        }
-             
-         }
          
          stage("test"){
         steps{
             echo 'testing application'
-            echo 'updating testing before moving to deploy stage'
+            echo 'updating testing stage into test node'
         }
         
     }
     stage("deploy"){
         steps{
-            echo 'deploying application'
+            echo 'deploying application to production node'
         }
     }
 } 
