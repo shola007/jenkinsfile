@@ -20,8 +20,6 @@ post{
     success{
 
         echo 'SUCCESS!!!'}
-failure{
-        echo 'FAILED!!!'}
     
 }
 }
