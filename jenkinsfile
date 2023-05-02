@@ -5,7 +5,7 @@ pipeline{
 
           stage("test"){
         steps{
-            echo 'testing my application'
+            echo 'testing my code'
             echo 'updating testing stage into test node'
         }
         
